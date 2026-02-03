@@ -73,7 +73,7 @@ if st.button("New conversation"):
     st.rerun()
 
 # User input box
-question = st.chat_input("Write your message:")
+question = st.chat_input("Write your message...")
 
 if question:
     # Immediately display the user's message on screen
