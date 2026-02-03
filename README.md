@@ -29,12 +29,27 @@ git clone https://github.com/your-username/langchain-streamlit-chatbot.git
 cd langchain-streamlit-chatbot
 ```
 
-### 3. Install dependencies
+### 3. Create and activate a virtual environment
+```bash
+python -m venv venv
+```
+
+Activate the virtual environment:
+- **Windows:**
+```bash
+venv\Scripts\activate
+```
+- **macOS/Linux:**
+```bash
+source venv/bin/activate
+```
+
+### 4. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Configure environment variables
+### 5. Configure environment variables
 Create a `.env` file in the root directory and add your API key:
 
 ```env
