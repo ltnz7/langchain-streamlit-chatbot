@@ -88,3 +88,8 @@ streamlit run streamlit_chatbot.py
 ```
 
 The application will open in your default web browser at `http://localhost:8501`.
+
+## 🧪 Project Status
+
+This project is intended as a **basic and educational example** of how to build a chatbot using LangChain and Streamlit.  
+It is not intended for production use, but can be easily extended with additional features such as memory, RAG, or multiple LLM support.
